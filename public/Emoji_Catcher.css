@@ -1,0 +1,213 @@
+:root{
+    --speed:;
+}
+*{
+    margin: 0;
+    padding:0
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(download.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.head
+{
+    font-size:60px;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 10px auto;
+    margin-left: 340pt;
+}
+#result
+{
+    position: relative;
+    top:40px;
+    background-color:transparent;
+    height:50pt;
+    width:500pt;
+    margin: 20px auto;
+    font-size: 40px;
+    margin-bottom: 0px;
+    
+    border-radius: 10px;
+}
+.machine
+{
+    position: relative;
+   
+    background-color:none;
+    border: solid black 3px;
+    height: 300px;
+    width: 900px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.slot
+{
+    height: 250px;
+    width: 250px;
+    margin: 20px auto;
+    background-color: beige;
+    border: solid darkblue 3px;
+    font-size: 80pt;
+    text-align: center;
+    line-height: 250px;
+    overflow: hidden;
+}
+.value
+{
+    animation: slotspin infinite 0.3;
+}
+@keyframes slotspin{
+    0%
+    {
+        transform:translateY(-200px);
+    }
+    100%
+    {
+        transform: translateY(200px);
+    }
+}
+#button
+{
+    position: relative;
+    left: 35%;
+    display: inline-block;
+    font-size:50px;
+    margin:20px;
+    padding: 20px;
+    background-color: deepskyblue;
+    border-radius: 15px;
+}
+#button:hover{
+    background-color:dodgerblue;
+    color: white;
+}
+#set
+{
+    display: inline-block;
+    font-size:50px;  
+    position: relative;
+    left: 40%;
+    margin:20px;
+    padding: 20px;
+    background-color: deepskyblue;
+     border-radius: 15px;
+}
+#set:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+@media (max-width:500px)
+{
+       body{
+   
+    height: 830px;
+    
+}
+    .head
+{
+    font-size:20px;
+    margin: 8px auto;
+    margin-left: 70pt;
+}
+    .machine
+{
+    
+    height: 32%;
+    width: 80%;
+    margin: 0 auto;
+}
+    #result
+{
+    
+    top:20px;
+    height:40pt;
+    width:200pt;
+    margin: 20px auto;
+    font-size: 25px;
+    border-radius: 5px;
+}
+    .slot
+{
+    height: 92%;
+    width: 30%;
+    margin: 8px auto;
+    font-size: 52pt;
+    text-align: center;
+    line-height: 250px;
+    
+}
+ #button
+{
+    
+    left: 8%;
+    font-size:40px
+}
+#set
+{
+   
+    font-size:40px;  
+    left: 0%;
+  
+}
+}
+@media (max-width:380px)
+{
+       body{
+   
+    height: 830px;
+    
+}
+    .head
+{
+    font-size:20px;
+    margin: 8px auto;
+    margin-left: 70pt;
+}
+    .machine
+{
+    
+    height: 32%;
+    width: 80%;
+    margin: 0 auto;
+}
+    #result
+{
+    
+    top:20px;
+    height:40pt;
+    width:200pt;
+    margin: 20px auto;
+    font-size: 25px;
+    border-radius: 5px;
+}
+    .slot
+{
+    height: 92%;
+    width: 30%;
+    margin: 8px auto;
+    font-size: 52pt;
+    text-align: center;
+    line-height: 250px;
+    
+}
+ #button
+{
+    
+    left: 8%;
+    font-size:40px
+}
+#set
+{
+   
+    font-size:40px;  
+    left: 0%;
+  
+}
+}
